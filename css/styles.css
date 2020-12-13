@@ -1,0 +1,113 @@
+body{
+	background-image: linear-gradient(to bottom right, white, #607D8B);
+	background-repeat: no-repeat; 
+	font-family: sans-serif;
+}
+.wrapper{
+	width: 90%;
+	margin: 50px auto;
+	background-color: white;
+	border-radius: 20px;
+	padding: 24px;
+	overflow: hidden;
+}
+#left, #right{
+	float: right;
+	width: 50%;
+}
+.rre{
+	width: 100%;
+	height: 400px;
+	background-color: red;
+}
+h1{
+	font-weight: bolder;
+	color: #311B92;
+}
+.separator {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-right: 65%;
+    margin-left: 10px;
+    color: #EF5350;
+    font-size: 18px;
+    font-weight: bold;
+}
+.separator::before {
+    content: '';
+    flex: 1;
+    border-bottom: 3px solid #EF5350;
+    margin-right: 25px;
+}
+.options{
+	width: 100%;
+	margin: 50px 0px;
+}
+.sug, .sufb{
+	display: inline;
+	margin: 15px;
+	font-size: 12px;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	color: #424242;
+}
+.icon{
+	background-color: red;
+	width: 20px;
+	height: 20px;
+	margin: 4px;
+	display: inline-block;
+}
+.form{
+	color: #424242;
+	font-size: 16px;
+	font-weight: bold;
+}
+.form div{
+	width: 45%;
+	float: left;
+}
+label, input{
+	display: block;
+	margin: 16px;
+}
+#contract{
+	float: left;
+}
+input{
+	height: 25px;
+	border: 1px solid #BDBDBD;
+}
+input[type="submit"]{
+	background-color: #EF5350;
+	width: 10%;
+	height: 60px;
+	color: white;
+	border-radius: 16px;
+	border: 1px solid transparent;
+	font-size: 24px;
+}
+.si{
+	margin: 50px 0px;
+	color: #424242;
+	font-size: 16px;	
+}
+.si a{
+	color: #D32F2F;
+}
+@media screen and (max-width: 850px){
+	.sug, .sufb{
+	display: block;
+}
+	.form div{
+	width: 100%;
+	float: none;
+}
+#left, #right{
+	float: none;
+	width: 100%;
+}
+}
